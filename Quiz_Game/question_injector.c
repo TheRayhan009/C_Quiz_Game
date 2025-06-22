@@ -26,7 +26,7 @@ int main(){
 
     fclose(filex);
 
-
+    printf("Enter your Question:");
     
     fgets(question, MAX , stdin);
     
@@ -35,6 +35,7 @@ int main(){
     question[lenx - 1] = '\0';
 
     //
+    printf("Enter your Option 1:");
 
     fgets(option_1, MAX , stdin);
     
@@ -43,6 +44,7 @@ int main(){
     option_1[lenx1 - 1] = '\0';
 
     //
+    printf("Enter your Option 2:");
 
     fgets(option_2, MAX , stdin);
     
@@ -51,6 +53,7 @@ int main(){
     option_2[lenx2 - 1] = '\0';
 
     //
+    printf("Enter your Option 3:");
 
     fgets(option_3, MAX , stdin);
     
@@ -60,6 +63,7 @@ int main(){
 
     
     //
+    printf("Enter your Option 4:");
 
     fgets(option_4, MAX , stdin);
     
@@ -69,7 +73,7 @@ int main(){
 
 
     //
-
+    printf("Enter your Answer:");
 
     fgets(answer, MAX , stdin);
     
